@@ -869,8 +869,8 @@ contract PlayPadStakeMaster is Ownable, ReentrancyGuard {
 
     address[] public newStakePool;
 
-    // creates new IDO contract following datas as below
-    function createIDO(
+    // creates new Syrup contract following datas as below
+    function createSyrup(
         IERC20 _stakingToken,
         IERC20 _poolToken,
         uint256 _startBlock,
